@@ -2,20 +2,18 @@
 //  ContentView.swift
 //  RetryButton
 //
-//  Created by Tixsee on 4/5/23.
+//  Created by Saad Umar on 4/5/23.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        RetryButton()
+            .simultaneousGesture(TapGesture()
+                .onEnded {
+                    print("tapped!!")
+                })
     }
 }
 

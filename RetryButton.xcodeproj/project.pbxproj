@@ -11,6 +11,7 @@
 		0FB5BA7C29DD88C9002972E1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5BA7B29DD88C9002972E1 /* ContentView.swift */; };
 		0FB5BA7E29DD88CA002972E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB5BA7D29DD88CA002972E1 /* Assets.xcassets */; };
 		0FB5BA8229DD88CA002972E1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FB5BA8129DD88CA002972E1 /* Preview Assets.xcassets */; };
+		0FB5BA8929DD88DD002972E1 /* RetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB5BA8829DD88DD002972E1 /* RetryButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0FB5BA7D29DD88CA002972E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FB5BA7F29DD88CA002972E1 /* RetryButton.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RetryButton.entitlements; sourceTree = "<group>"; };
 		0FB5BA8129DD88CA002972E1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0FB5BA8829DD88DD002972E1 /* RetryButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetryButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				0FB5BA7929DD88C9002972E1 /* RetryButtonApp.swift */,
 				0FB5BA7B29DD88C9002972E1 /* ContentView.swift */,
+				0FB5BA8829DD88DD002972E1 /* RetryButton.swift */,
 				0FB5BA7D29DD88CA002972E1 /* Assets.xcassets */,
 				0FB5BA7F29DD88CA002972E1 /* RetryButton.entitlements */,
 				0FB5BA8029DD88CA002972E1 /* Preview Content */,
@@ -141,6 +144,7 @@
 			files = (
 				0FB5BA7C29DD88C9002972E1 /* ContentView.swift in Sources */,
 				0FB5BA7A29DD88C9002972E1 /* RetryButtonApp.swift in Sources */,
+				0FB5BA8929DD88DD002972E1 /* RetryButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
